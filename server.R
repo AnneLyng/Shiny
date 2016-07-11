@@ -15,9 +15,9 @@ shinyServer(function(input,output,session){
         
         
       })
-      updateNumericInput(session, "numNeg","Mean Negative Controls", NA)
-      updateNumericInput(session, "numPos","Mean Positive Controls", NA)
-      updateNumericInput(session, "numSam","Mean Sample",NA)
+      updateNumericInput(session, "numNeg","Mean Negative Controls", numN)
+      updateNumericInput(session, "numPos","Mean Positive Controls", numP)
+      updateNumericInput(session, "numSam","Mean Sample",num)
     }
   })
   
